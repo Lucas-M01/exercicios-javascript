@@ -1,0 +1,2 @@
+# Javascript exercises
+ Practicing javascript
