@@ -1,2 +1,2 @@
 # Javascript exercises
- Practicing javascript
+ Here were some exercises for the practice of JavaScript language.
