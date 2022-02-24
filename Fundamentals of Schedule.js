@@ -92,3 +92,18 @@ console.log("5) " + equal(0, '0'))
 
 /* Write a function that takes a boolean or numeric value. If the given parameter s boolean, the The function's return must be the reverse. For example, if the input is false, it will return true. If the parameter is numeric, the return will be the inverse number. For example, if 1 is given,the return will be -1. If the parameter of input is of the above types, return "expected boolean or number, but the parameter is of type..."*/
 
+function inverso(valor) {
+    const tipo = typeof valor
+    if (tipo == 'boolean') return !valor
+    else if(tipo == 'number') return -valor
+    else return `booleano ou número esperados, mas o parâmetro é do tipo ${tipo}`
+}
+
+console.log("6)" + inverso("Eu"))
+
+/*Create a function that takes four numbers as a parameter (number, minimum, maximum, inclusive) and returns if
+the number parameter (the first one) is between minimum and maximum. When the inclusive parameter is true, have
+"between" as inclusive, that is, considering whether number is equal to minimum or maximum. If the parameter
+inclusive is not informed, its default value must be false, so the logic will be exclusive, not
+considering whether number is equal to minimum or maximum. */
+
